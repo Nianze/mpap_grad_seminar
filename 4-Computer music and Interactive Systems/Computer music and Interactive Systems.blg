@@ -1,0 +1,9 @@
+[1] Config.pm:354> INFO - This is Biber 2.7 (beta)
+[2] Config.pm:357> INFO - Logfile is 'Computer music and Interactive Systems.blg'
+[47] biber:303> INFO - === Sun Oct 27, 2019, 14:28:18
+[86] Biber.pm:360> INFO - Reading 'Computer music and Interactive Systems.bcf'
+[215] Biber.pm:836> INFO - Found 0 citekeys in bib section 0
+[229] Utils.pm:164> WARN - The file 'Computer music and Interactive Systems.bcf' does not contain any citations!
+[245] bbl.pm:608> INFO - Writing 'Computer music and Interactive Systems.bbl' with encoding 'ascii'
+[246] bbl.pm:712> INFO - Output to Computer music and Interactive Systems.bbl
+[248] Biber.pm:110> INFO - WARNINGS: 1

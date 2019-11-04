@@ -1,0 +1,311 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nyt/global/}
+    \entry{beauchamp1996introduction}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=b8e59d92b022ee9849e30ae2f325bb4f}{%
+           family={Beauchamp},
+           familyi={B\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{b8e59d92b022ee9849e30ae2f325bb4f}
+      \strng{fullhash}{b8e59d92b022ee9849e30ae2f325bb4f}
+      \strng{authornamehash}{b8e59d92b022ee9849e30ae2f325bb4f}
+      \strng{authorfullhash}{b8e59d92b022ee9849e30ae2f325bb4f}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{School of Music, University of Illinois at Urbana-Champaign}
+      \field{title}{Introduction to MUSIC 4C}
+      \field{year}{1996}
+    \endentry
+    \entry{lazzarini2013development}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=d2666d9526da2346c3529ed0147fc4e9}{%
+           family={Lazzarini},
+           familyi={L\bibinitperiod},
+           given={Victor},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{d2666d9526da2346c3529ed0147fc4e9}
+      \strng{fullhash}{d2666d9526da2346c3529ed0147fc4e9}
+      \strng{authornamehash}{d2666d9526da2346c3529ed0147fc4e9}
+      \strng{authorfullhash}{d2666d9526da2346c3529ed0147fc4e9}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of New Music Research}
+      \field{number}{1}
+      \field{title}{The development of computer music programming systems}
+      \field{volume}{42}
+      \field{year}{2013}
+      \field{pages}{97\bibrangedash 110}
+      \range{pages}{14}
+    \endentry
+    \entry{lefford1999interview}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=1ea4c87f413f0110bda819e174f3c36f}{%
+           family={Lefford},
+           familyi={L\bibinitperiod},
+           given={Nyssim},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{1ea4c87f413f0110bda819e174f3c36f}
+      \strng{fullhash}{1ea4c87f413f0110bda819e174f3c36f}
+      \strng{authornamehash}{1ea4c87f413f0110bda819e174f3c36f}
+      \strng{authorfullhash}{1ea4c87f413f0110bda819e174f3c36f}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computer Music Journal}
+      \field{number}{4}
+      \field{title}{An Interview with Barry Vercoe}
+      \field{volume}{23}
+      \field{year}{1999}
+      \field{pages}{9\bibrangedash 17}
+      \range{pages}{9}
+    \endentry
+    \entry{mathews1963digital}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=d78805b9a54b9a8a8af404a9419b38cc}{%
+           family={Mathews},
+           familyi={M\bibinitperiod},
+           given={Max\bibnamedelima V},
+           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{d78805b9a54b9a8a8af404a9419b38cc}
+      \strng{fullhash}{d78805b9a54b9a8a8af404a9419b38cc}
+      \strng{authornamehash}{d78805b9a54b9a8a8af404a9419b38cc}
+      \strng{authorfullhash}{d78805b9a54b9a8a8af404a9419b38cc}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{3592}
+      \field{title}{The digital computer as a musical instrument}
+      \field{volume}{142}
+      \field{year}{1963}
+      \field{pages}{553\bibrangedash 557}
+      \range{pages}{5}
+    \endentry
+    \entry{mathews1969technology}{book}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=d78805b9a54b9a8a8af404a9419b38cc}{%
+           family={Mathews},
+           familyi={M\bibinitperiod},
+           given={Max\bibnamedelima V},
+           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{uniquename=0,hash=a65add3500c3e0adf74cdcebfe006e52}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Joan\bibnamedelima E},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{uniquename=0,hash=0ee3a4c5b2d4a8d8169092b3f87b2f2a}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={F\bibnamedelima Richard},
+           giveni={F\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{uniquename=0,hash=6c5e073e84340b039f91d61d6438d86a}{%
+           family={Pierce},
+           familyi={P\bibinitperiod},
+           given={John\bibnamedelima R},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{uniquename=0,hash=75a62a13384c681716287d9c00fd8c29}{%
+           family={Risset},
+           familyi={R\bibinitperiod},
+           given={Jean-Claude},
+           giveni={J\bibinithyphendelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MIT press Cambridge}%
+      }
+      \strng{namehash}{6d567b64108f0258ce2b3b3d28998bc2}
+      \strng{fullhash}{97a7f1e758413bb4e9b4d0f4335e6905}
+      \strng{authornamehash}{6d567b64108f0258ce2b3b3d28998bc2}
+      \strng{authorfullhash}{97a7f1e758413bb4e9b4d0f4335e6905}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The technology of computer music}
+      \field{volume}{969}
+      \field{year}{1969}
+    \endentry
+    \entry{mccartney2002rethinking}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=ae00e133d5c4b554bec39f33e2f35fb4}{%
+           family={McCartney},
+           familyi={M\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{ae00e133d5c4b554bec39f33e2f35fb4}
+      \strng{fullhash}{ae00e133d5c4b554bec39f33e2f35fb4}
+      \strng{authornamehash}{ae00e133d5c4b554bec39f33e2f35fb4}
+      \strng{authorfullhash}{ae00e133d5c4b554bec39f33e2f35fb4}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computer Music Journal}
+      \field{number}{4}
+      \field{title}{Rethinking the computer music language: SuperCollider}
+      \field{volume}{26}
+      \field{year}{2002}
+      \field{pages}{61\bibrangedash 68}
+      \range{pages}{8}
+    \endentry
+    \entry{moore1965cramming}{misc}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=8eb1d8a98e8175bd41c442b91cbad4e6}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={Gordon\bibnamedelima E},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill New York, NY, USA:}%
+      }
+      \strng{namehash}{de08dc48eb50bea512b3e46b3c47b141}
+      \strng{fullhash}{de08dc48eb50bea512b3e46b3c47b141}
+      \strng{authornamehash}{de08dc48eb50bea512b3e46b3c47b141}
+      \strng{authorfullhash}{de08dc48eb50bea512b3e46b3c47b141}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cramming more components onto integrated circuits}
+      \field{year}{1965}
+    \endentry
+    \entry{pope1993machine}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=6cf1591edb5148af55f68da7a5f6a117}{%
+           family={Pope},
+           familyi={P\bibinitperiod},
+           given={Stephen\bibnamedelima Travis},
+           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{6cf1591edb5148af55f68da7a5f6a117}
+      \strng{fullhash}{6cf1591edb5148af55f68da7a5f6a117}
+      \strng{authornamehash}{6cf1591edb5148af55f68da7a5f6a117}
+      \strng{authorfullhash}{6cf1591edb5148af55f68da7a5f6a117}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computer Music Journal}
+      \field{number}{2}
+      \field{title}{Machine tongues XV: Three packages for software sound synthesis}
+      \field{volume}{17}
+      \field{year}{1993}
+      \field{pages}{23\bibrangedash 54}
+      \range{pages}{32}
+    \endentry
+    \entry{vercoe1981reference}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=9b80dc016082d0e390d7cfdbe868798c}{%
+           family={Vercoe},
+           familyi={V\bibinitperiod},
+           given={Barry},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{9b80dc016082d0e390d7cfdbe868798c}
+      \strng{fullhash}{9b80dc016082d0e390d7cfdbe868798c}
+      \strng{authornamehash}{9b80dc016082d0e390d7cfdbe868798c}
+      \strng{authorfullhash}{9b80dc016082d0e390d7cfdbe868798c}
+      \field{sortinit}{V}
+      \field{sortinithash}{555737dafdcf1396ebfeae5822e5bde2}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Program documentation. Cambridge, Massachusetts: MIT Experimental Music Studio}
+      \field{title}{Reference Manual for the MUSIC 11 Sound Synthesis Language}
+      \field{year}{1981}
+    \endentry
+    \entry{vercoe1990real}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=9b80dc016082d0e390d7cfdbe868798c}{%
+           family={Vercoe},
+           familyi={V\bibinitperiod},
+           given={Barry},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=036e0eb02fc58b1712db6826565759ed}{%
+           family={Ellis},
+           familyi={E\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{7a2f219308152a3600b13884fefe96dc}
+      \strng{fullhash}{7a2f219308152a3600b13884fefe96dc}
+      \strng{authornamehash}{7a2f219308152a3600b13884fefe96dc}
+      \strng{authorfullhash}{7a2f219308152a3600b13884fefe96dc}
+      \field{sortinit}{V}
+      \field{sortinithash}{555737dafdcf1396ebfeae5822e5bde2}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{ICMC}
+      \field{title}{Real-time CSound: Software Synthesis with Sensing and Control.}
+      \field{volume}{90}
+      \field{year}{1990}
+      \field{pages}{209\bibrangedash 211}
+      \range{pages}{3}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

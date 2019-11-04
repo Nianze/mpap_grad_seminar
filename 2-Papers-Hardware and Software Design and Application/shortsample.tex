@@ -1,0 +1,165 @@
+\documentclass[jou]{apa6}
+
+\usepackage[american]{babel}
+
+\usepackage{csquotes}
+\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}
+\addbibresource{bibliography.bib}
+
+\title{A Brief Review of Music Programming Languages Design}
+
+\author{Nianze Liu}
+\affiliation{New York University}
+
+\leftheader{Liu}
+
+\abstract{This paper takes a brief review on the basic software design 
+of text-based music programming languages originating from 
+MUSIC N family to mordern systems such as Csound and SuperCollider. 
+By tracing the history of these domain specific languages and their
+evolution path, we undertand the two typical paradigms in music programming 
+systems design.}
+
+\keywords{Textual, Computer Music, Programming Language}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+Music programming languages are audio DSL(domain-specific languages) 
+optimized for audio synthesis, featuring precise control over sound 
+since the audio syntheses or transformation process could be
+controlled by programs to a very fine degree.
+
+In the early age, due to the computation limitation, the audio synthesis 
+task is uaually completed off-line. Nowadays, thanks to powerful 
+hardwares following Moore's Law \parencite{moore1965cramming}, modern 
+computer music programming systems is able to provide a realtime 
+interactive environment. In this article, we'll look into the design
+of some typical and popular systems and dicuss their design paradigms.
+
+\section{Music Programming Systems}
+
+\subsection{MUSIC N}
+According to \textcite{lazzarini2013development}, MUSIC I created by 
+Max Mathews in 1957 is regarded as first direct digital synthesis 
+program \parencite{mathews1963digital}. In MUSIC II, the 
+table-lookup oscillator was introduced. Later in MUSIC III, the 
+principles of the unit generator were introduced. 
+
+Upon the arrival of MUSIC IV, the first general model of the music 
+programming systems came into its complete form, which consists of 
+multiple separate programs that 
+runs in three different phases/passes, generating a digital audio
+stream stored in tape or disk file in the end:
+
+The first pass takes in numeric computer score as well as related
+function-table generation instructions as control data in unorderd 
+form, which is then fed into the second pass so that the score was 
+ordered in time order and tempo transformations are applied. 
+Finally, in the third pass, scores from the second pass is taken
+into a synthesis program, generating the audio samples via a DAC.
+
+An example of MUSIC IV Unit generators and intrument is shown below.
+
+Table \ref{tab:ComplexTable} contains some sample data.  Our
+statistical prowess in analyzing these data is unmatched.
+
+\begin{table}[htbp]
+  \vspace*{2em}
+  \begin{threeparttable}
+    \caption{Some MUSIC IV Unit generators.}
+    \label{tab:ComplexTable}
+    \begin{tabular}{@{}lll@{}}         \toprule
+    1 &    OUT    &     output unit     \\
+    2 &    OSCIL  &     standard table-lookup oscillator   \\
+    3 &    COSCIL &     table-lookup oscillator with no phase reset  \\ \midrule
+    \end{tabular}
+  \end{threeparttable}
+\end{table}
+
+Based on MUSIC IV, there are some descendants: MUSIC 4C (M4C) is a
+C-language port \parencite{beauchamp1996introduction}; CMix features 
+a scripting language, Minc, to control the C-written instruments in 
+the main program \parencite{pope1993machine}. MUSIC 360 written by
+Vercor for large IBM 360 computer in 1973 at Princeton University
+is another example \parencite{lefford1999interview}. Later in 1981,
+Vercoe developed MUSIC 11 at the MIT Experimental Music Studio for 
+the smaller PDP-11 minicomputer \parencite{vercoe1981reference}.
+
+Created by Mathew in FORTRAN at Bell Labs, MUSIC V proceeded a step
+further than MUSIC IV in that it can run on other computer systems, 
+with many minor changes but still keep the three-pass 
+process \parencite{mathews1969technology}. 
+
+From the history of MUSIC N family above, we can see that the 
+portability of the system becomes more and more wide.
+
+\subsection{Csound}
+Csound was originally released in 1986 as a C-language port of 
+MUSIC 11, and merged the orchestra compiler and loader together.
+The original mit-ems Csound consisted three different commands:
+\textsf{scsort} to sort the score , \textsf{csound} to compile 
+and load the orchestra, and \textsf{perf} to call scsort 
+and scound in a sequence for convenience.
+
+In the 1990s, realtime operation was introduced into the Csound 
+\parencite{vercoe1990real}, leading to a system offering
+offline composition and realtime synthesis.
+
+Later came out the Csound5 in 2006, focusing on re-engineering
+the system to get rid of the original "monolithic program", as 
+well as providing a dynamic-loadable library with a plugin 
+system and public API. At this point, Csound acts more like a 
+library that could be used as a synthesis engine for different
+applications. The library becomes very popular since it follows
+ the design of object-oriented 
+programming principles and provides both a C and a C++ API, as 
+well as interfaces for other OOP languages. 
+
+\subsection{SuperCollider}
+
+SuperCollider 3 is capable of realtime syntheses 
+\parencite{mccartney2002rethinking}, which features two 
+components: SCLang as an interpreted language, and
+Open Sound Control (OSC)-based software synthesizer called 
+SCSynth. Based on a client-server architecture, 
+SCLang sends out OSC commands to SCSynth via 
+the network, in order to break the separation of orchestra 
+(instrument) and score in the design of MUSIC-N systems. 
+
+Since SCLang is object-oriented language providing the 
+ability to process events and sound, it is easier to
+do algorithmic composition.
+
+\section{Conclusions}
+
+After the brief view of the evolution of some typical music 
+programming languages above, we can find that there are two 
+different paradigms: The MUSIC N one and the object-oriented one.
+
+The MUSIC N paradigm features an "acoustic compiler" or some sort
+of interpreter in order to translate a symbolic decsription into a 
+synthesis signal flow in the form of DSP graph. Another characteristic 
+for this paradigm is the principle of instrument classes to produce 
+audio during performance by class instantiation through programming.
+
+Object-oriented programming paradigm is just 
+a partial realization of the general Object-Oriented Programming(OOP) 
+principles, where there are two levels of abstraction we could find
+in music programming languages: first level is 
+the unit generator working as class, and instruments as instantiated 
+objects from unit generator; second level is that the score events 
+could be regarded as instantiated objects from instruments.
+
+In the future, we might imagine more paradigms might show up based
+on recent technology progress. For example, current music programming
+systems still run on CPUs. With GPU becomes more and more powerful and 
+popular recently, the next generation of music programming languages might
+run on top of GPUs, taking use of the hardware's parallel processing 
+ability.
+
+\printbibliography
+
+\end{document}
