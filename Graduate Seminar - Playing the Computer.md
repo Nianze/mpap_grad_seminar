@@ -49,3 +49,11 @@ Current projects:
 # 2019.10.08
 ## Element of Trajectory
 - Leila Adu-Gilmore
+
+# 2019.11.05
+## -
+- Alexander Sigman
+
+Projects:
+- VURT
+- fcemap
