@@ -57,3 +57,27 @@ Current projects:
 Projects:
 - VURT
 - fcemap
+
+# 2019.11.19
+## Music Perception & Cognition
+- topics/areas
+    - Emotion and expectation
+    - Harmony and tonality
+    - Pitch perception and pyschoacoustics
+    - Melodic perception
+    - Rhythm, beat, meter, tempo, and timing
+    - Cross-modal
+        - Music vs. language
+        - audiovisual perception (ranging from study of low-level sensory to film music)
+        - how musical experience affects other nonmusical skills
+    - performance
+    - perception large-scale musical strustures
+    - aesthetics and preference
+    - cross-cultural comparisons
+    - evolution and origins (more speculative/theoretical)
+    - composition and improvisation
+    - marketing and business
+    - social impact of music
+    - music therapy
+    - developmental psychology of music
+    - brain-computer interfaces for music
