@@ -51,15 +51,17 @@ Current projects:
 - Leila Adu-Gilmore
 
 # 2019.11.05
-## -
+## Computer Music
 - Alexander Sigman
 
-Projects:
-- VURT
-- fcemap
+- Projects:
+    - VURT
+    - fcemap
 
 # 2019.11.19
 ## Music Perception & Cognition
+- Morwaread Farbood
+
 - topics/areas
     - Emotion and expectation
     - Harmony and tonality
@@ -81,3 +83,18 @@ Projects:
     - music therapy
     - developmental psychology of music
     - brain-computer interfaces for music
+- Background
+    - Interdisciplinary education
+    - Path not traditional
+- Research topics
+    - Modeling musical tension
+    - Comparisons between music and speech
+    - Tonal perception
+    - Applications of music cognition to music technology, including computer music (and to some extent music information retrival)
+- thesis on a music perception/cognition topic
+    - Psychology of Music (MPATC-GE 2042)
+    - Behaviorial and social science (e.g., CORE-GP.1011)
+    - Additional music theory seminar
+    - Pablo Ripollew, new faculty member in music tech/neuroscience for advising
+
+What question I want to ask?
