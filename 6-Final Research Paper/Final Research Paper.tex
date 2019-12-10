@@ -1,0 +1,86 @@
+\documentclass[man]{apa6}
+
+\usepackage{lipsum}
+
+\usepackage[american]{babel}
+
+\usepackage{csquotes}
+\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}
+\addbibresource{bibliography.bib}
+
+\title{System Music With Online Machine Learning Tool}
+\shorttitle{Final Research Paper}
+
+\author{Nianze Liu}
+\affiliation{New York University}
+
+\leftheader{Liu}
+
+\abstract{This article introduces a few online musical generation tools 
+   powered up by cutting-edge machine learning techniques that provide
+   new possibilities for musicians to create music, where by adopting
+   the concept of "system music", musicians are able to take advantage of
+   the internet as well as more and more powerful Javascript to build a
+   creative or even interactive music systems, which run on any smart
+   devices with a browser, leading to a new way to share the music: not
+   by going to the concert, nor listening to a record, but downloading
+   and running a music system itself that generates music on the fly.}
+
+\keywords{Computer Music, Magenta, Online}
+
+\authornote{Nianze Liu, Department of Music and Performing Arts Professions, 
+  Music Technology, NYU Steinhardt.
+
+  Correspondence concerning this article should be addressed to Nianze Liu, 
+  Department of Music and Performing Arts Professions, Music Technology, 
+  NYU Steinhardt, 35 West 4th Street, 10th Floor, New York, NY
+  10012.  E-mail: nl1951@nyu.edu}
+
+\begin{document}
+\maketitle
+
+Music usually evolves when new technology is available. For example, the tape recorders, as a cutting edge technology in 1950s, have widely changed music industry, not only in how music is distributed and shared, but also how music is produced. Taking use of magnetic tape recorders, and combined with the phase shifting technique, Steve Reich created a famous piece of music called It's Gonna Rain in 1965, which marks the earch experiment in the field of system music. 
+
+According to \textcite{sutherland1994new}, the term system music means "music with sound continua which evolve gradually, often over very long periods of time." In the light of this statement, some of the most famous system music artists, apart from Steve Reich, include Terry Riley, Pauline Oliveros, and Brian Eno. Instead of composing and making music directly by the composer, the core concept of system music is to make a system that generates the music. Back in 1960s and 70s, the system might be built using magnetic tape records, loops, delays and synthesizers. Nowadays, thanks to the development of technology, the system might consist of much more powerful technical elements, such as machine learning.
+
+Introduce the benefit of online tool, introduce the benefit of machine learning based method. 
+
+Introduce Google Magenta. Introduce Magenta studio \parencite{magentastudio} and 
+Magenta.js \parencite{magentajs}
+
+\section{Toolbox}
+
+\subsection{MusicVAE}
+\lipsum[7]
+
+\subsection{Onsets and Frames}
+\lipsum[4]
+
+\subsection{Performance RNN}
+Mentioned in \textcite{performance-rnn-2017}.\lipsum[5]
+
+\subsection{Music Transformer}
+\lipsum[6]
+
+\subsection{ML Based Synthesizer}
+\lipsum[8]
+
+\subsubsection{NSynth}
+\lipsum[2]
+
+\subsubsection{GANSynth}
+\lipsum[9]
+
+\subsection{Coconet}
+\lipsum[10]
+
+\section{Discussion}
+
+Broader usage combined with Internet of Things: in AR and VR, in personalized music list generation by extra input of environment and biological state using wearable smart devices such as Apple Watch and fitbit tracker.
+
+\lipsum[11]
+
+\printbibliography
+
+\end{document}
