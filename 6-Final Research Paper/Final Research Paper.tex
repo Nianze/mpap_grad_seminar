@@ -18,19 +18,11 @@
 \leftheader{Liu}
 
 \abstract{This article introduces a few online musical generation tools 
-   powered up by cutting-edge machine learning techniques that provide
-   new possibilities for musicians to create music, where by adopting
-   the concept of "system music", musicians are able to take advantage of
-   the internet as well as more and more powerful Javascript to build a
-   creative or even interactive music systems, which run on any smart
-   devices with a browser, leading to a new way to share the music: not
-   by going to the concert, nor listening to a record, but downloading
-   and running a music system itself that generates music on the fly.}
+   powered up by cutting-edge machine learning techniques that provide new possibilities for musicians to create music, where by adopting the concept of "system music", musicians are able to take advantage of Javascript as well as more and more powerful Web Audio API to build a creative or even interactive music systems, which run on any smart devices with a browser, leading to a new way to share the music: not by going to the concert, nor listening to a record, but downloading and running a music system itself that generates music on the fly.}
 
 \keywords{Computer Music, Magenta, Online}
 
-\authornote{Nianze Liu, Department of Music and Performing Arts Professions, 
-  Music Technology, NYU Steinhardt.
+\authornote{Nianze Liu, Department of Music and Performing Arts Professions, Music Technology, NYU Steinhardt.
 
   Correspondence concerning this article should be addressed to Nianze Liu, 
   Department of Music and Performing Arts Professions, Music Technology, 
@@ -42,14 +34,17 @@
 
 Music usually evolves when new technology is available. For example, the tape recorders, as a cutting edge technology in 1950s, have widely changed music industry, not only in how music is distributed and shared, but also how music is produced. Taking use of magnetic tape recorders, and combined with the phase shifting technique, Steve Reich created a famous piece of music called It's Gonna Rain in 1965, which marks the earch experiment in the field of system music. 
 
-According to \textcite{sutherland1994new}, the term system music means "music with sound continua which evolve gradually, often over very long periods of time." In the light of this statement, some of the most famous system music artists, apart from Steve Reich, include Terry Riley, Pauline Oliveros, and Brian Eno. Instead of composing and making music directly by the composer, the core concept of system music is to make a system that generates the music. Back in 1960s and 70s, the system might be built using magnetic tape records, loops, delays and synthesizers. Nowadays, thanks to the development of technology, the system might consist of much more powerful technical elements, such as machine learning.
+According to \textcite{sutherland1994new}, the term system music means "music with sound continua which evolve gradually, often over very long periods of time." In the light of this statement, some of the most famous system music artists, apart from Steve Reich, include Terry Riley, Pauline Oliveros, and Brian Eno. Instead of composing and making music directly by the composer, the core concept of system music is to make a system that generates the music. Back in 1960s and 70s, the system might be built using magnetic tape records, loops, delays and synthesizers. Nowadays, thanks to the development of technology, the system might consist of much more powerful technical elements, such as Web Audio and machine learning.
 
-Introduce the benefit of online tool, introduce the benefit of machine learning based method. 
+\section{Web Audio API}
 
-Introduce Google Magenta. Introduce Magenta studio \parencite{magentastudio} and 
-Magenta.js \parencite{magentajs}
+Web Audio API, supported by most modern browsers.
 
-\section{Toolbox}
+\section{Machine Learning Toolbox}
+
+Music as a source of input signals naturally has a sequencial structure, which aligns with the structure of recurrent neuraw.
+
+Introduce Magenta studio \parencite{magentastudio} and Magenta.js \parencite{magentajs}
 
 \subsection{MusicVAE}
 \lipsum[7]
@@ -78,6 +73,8 @@ Mentioned in \textcite{performance-rnn-2017}.\lipsum[5]
 \section{Discussion}
 
 Broader usage combined with Internet of Things: in AR and VR, in personalized music list generation by extra input of environment and biological state using wearable smart devices such as Apple Watch and fitbit tracker.
+
+Limitation: not straight forward. Few parameters to contorl.
 
 \lipsum[11]
 
